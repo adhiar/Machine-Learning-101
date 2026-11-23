@@ -1,0 +1,30 @@
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Bytecode, caches and tools
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS generated files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local LanceDB data and generated files
+/token/
+*.lance
+
+# Temporary files / logs
+*.log
+*.tmp
